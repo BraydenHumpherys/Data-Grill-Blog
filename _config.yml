@@ -9,7 +9,7 @@ author_description: "As a curious student of statistics, I believe there are hid
 
 url: https://BraydenHumpherys.github.io ## change this to https://yourusername.github.io
 baseurl: /Data-Grill-Blog ## change this to the name of your blog repository
-header_image: /data-grill.png.PNG ## change your header image if you want
+header_image: /data-being-grilled.png ## change your header image if you want
 
 ## Add your social media user names.  Github is required, the rest are optional
 social:
