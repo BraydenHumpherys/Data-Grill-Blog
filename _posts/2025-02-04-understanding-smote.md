@@ -42,14 +42,16 @@ And there ya go! You have a more balanced dataset.
 
 ## **SMOTE in Pseudo-Code (Super Simple Version)**
 
+Lets take a loot at what happens under the hood. How does it actually work? Below is a very simplified block of pseudo code that breaks down the basics of the algorithm. It doesn't go into the details of the math, but it helps us understand the big idea.
+
 ```{python}
 Input: Minority class dataset X, number of samples needed N, nearest neighbors k
 
 For each minority sample x in X:
     Find k nearest neighbors of x
-    Pick one randomly: x_neigh
+    Pick one randomly: x_neighbor
     Create a new synthetic point:
-        new_sample = x + random_value * (x_neigh - x)
+        new_sample = x + random_value * (x_neighbor - x)
     Add new_sample to dataset
 ```
 
