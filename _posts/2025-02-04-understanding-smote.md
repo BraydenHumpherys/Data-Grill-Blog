@@ -63,7 +63,7 @@ That’s all! It’s like filling in the gaps in your dataset with realistic, ne
 
 Now you're curious. Does it actually work? Lets take a look at the visual affects of SMOTE. Here is a before and after:
 
-![SMOTE Before & After](../assets/img/smote-visual2.png)
+![Smite With SMOTE]({{site.url}}/{{site.baseurl}}/assets/img/smote-visual2.png)
 
 ## **Limitations of SMOTE (Yes, It’s Not Perfect)**
 
