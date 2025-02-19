@@ -42,9 +42,9 @@ And there ya go! You have a more balanced dataset.
 
 ## **SMOTE in Pseudo-Code (Super Simple Version)**
 
-Lets take a loot at what happens under the hood. How does it actually work? Below is a very simplified block of pseudo code that breaks down the basics of the algorithm. It doesn't go into the details of the math, but it helps us understand the big idea.
+Lets take a look at what happens under the hood. How does it actually work? Below is a very simplified block of pseudo code that breaks down the basics of the algorithm. It doesn't go into the details of the math, but it helps us understand the big idea.
 
-```{python}
+```python
 Input: Minority class dataset X, number of samples needed N, nearest neighbors k
 
 For each minority sample x in X:
@@ -61,7 +61,7 @@ That’s all! It’s like filling in the gaps in your dataset with realistic, ne
 
 Now you're curious. Does it actually work? Lets take a look at the visual affects of SMOTE. Here is a before and after:
 
-![SMOTE Before & After](../assets/img/smote-visual2.png)
+![SMOTE Before & After](https://github.com/BraydenHumpherys/Data-Grill-Blog/blob/main/assets/img/smote-visual2.png)
 
 ## **Limitations of SMOTE (Yes, It’s Not Perfect)**
 
