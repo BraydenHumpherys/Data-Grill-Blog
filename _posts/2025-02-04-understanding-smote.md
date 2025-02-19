@@ -6,6 +6,8 @@ image: /assets/img/smote-bar-graph.jpg
 display_image: true
 ---
 
+![Smite With SMOTE](../assets/img/smote-bar-graph.png)
+
 ## Understanding SMOTE: SMITE Imbalanced Datasets with SMOTE
 
 Have you ever trained a machine learning model, only to find that it’s really good at predicting the majority class but completely useless at detecting the minority class? It’s frustrating, right? You might be dealing with imbalanced data, a common issue in machine learning.
@@ -44,7 +46,7 @@ And there ya go! You have a more balanced dataset.
 
 Lets take a look at what happens under the hood. How does it actually work? Below is a very simplified block of pseudo code that breaks down the basics of the algorithm. It doesn't go into the details of the math, but it helps us understand the big idea.
 
-```python
+``` python
 Input: Minority class dataset X, number of samples needed N, nearest neighbors k
 
 For each minority sample x in X:
@@ -61,7 +63,7 @@ That’s all! It’s like filling in the gaps in your dataset with realistic, ne
 
 Now you're curious. Does it actually work? Lets take a look at the visual affects of SMOTE. Here is a before and after:
 
-![SMOTE Before & After](https://github.com/BraydenHumpherys/Data-Grill-Blog/blob/main/assets/img/smote-visual2.png)
+![SMOTE Before & After](../assets/img/smote-visual2.png)
 
 ## **Limitations of SMOTE (Yes, It’s Not Perfect)**
 
