@@ -6,7 +6,7 @@ image: /assets/img/smote-bar-graph.jpg
 display_image: true
 ---
 
-![Smite With SMOTE](https://braydenhumpherys.github.io/Data-Grill-Blog/assets/images/smote-bar-graph.jpg)
+![Smite With SMOTE]({{site.url}}/{{site.baseurl}}/assets/images/woman_sniffing_soup.jpg)
 
 ## Understanding SMOTE: SMITE Imbalanced Datasets with SMOTE
 
