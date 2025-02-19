@@ -6,7 +6,7 @@ image: /assets/img/smote-bar-graph.jpg
 display_image: true
 ---
 
-![Smite With SMOTE]({{site.url}}/{{site.baseurl}}/assets/images/smote-bar-graph.jpg)
+![Smite With SMOTE]({{site.url}}/{{site.baseurl}}/assets/images/smote-bar-graph.png)
 
 ## Understanding SMOTE: SMITE Imbalanced Datasets with SMOTE
 
