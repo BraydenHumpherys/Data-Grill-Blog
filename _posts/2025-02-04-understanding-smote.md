@@ -6,7 +6,7 @@ image: /assets/img/smote-bar-graph.jpg
 display_image: true
 ---
 
-![Smite With SMOTE]({{site.url}}/{{site.baseurl}}/assets/img/smote-bar-graph.png)
+![Smite With SMOTE](%7B%7Bsite.url%7D%7D/%7B%7Bsite.baseurl%7D%7D/assets/img/smote-bar-graph.png)
 
 ## Understanding SMOTE: SMITE Imbalanced Datasets with SMOTE
 
@@ -63,7 +63,7 @@ That’s all! It’s like filling in the gaps in your dataset with realistic, ne
 
 Now you're curious. Does it actually work? Lets take a look at the visual affects of SMOTE. Here is a before and after:
 
-![Smite With SMOTE]({{site.url}}/{{site.baseurl}}/assets/img/smote-visual2.png)
+![Smite With SMOTE](%7B%7Bsite.url%7D%7D/%7B%7Bsite.baseurl%7D%7D/assets/img/smote-visual2.png)
 
 ## **Limitations of SMOTE (Yes, It’s Not Perfect)**
 
