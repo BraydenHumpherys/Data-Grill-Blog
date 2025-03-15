@@ -13,7 +13,7 @@ By Brayden Humpherys
 
 As a lifelong skier, I've always been fascinated by the weather patterns that dictate the quality of ski days. Planning a perfect ski trip can be challenging without knowing how much snow to expect. This project aims to predict the amount of snowfall at Alta, UT, three days in advance using historical weather data. By leveraging data science, we can make more informed decisions and enhance our skiing experiences.
 
-![Me Skiing](https://github.com/BraydenHumpherys/Data-Grill-Blog/blob/main/assets/img/me_skiing.png)
+![Me Skiing]({{site.url}}/{{site.baseurl}}/assets/img/me_skiing.png)
 
 ### Motivation
 
@@ -29,14 +29,14 @@ To collect the weather data, I used the Open Meteo API. Here’s a brief overvie
 
 1.  **Set Base URL and Endpoint:**
 
-```{python}
+```
 base_url = 'https://archive-api.open-meteo.com/'
 endpoint = 'v1/archive'
 ```
 
 2.  **Set Parameters for 2023-2024**:
 
-```{python}
+```
 params23_24 = {
     'latitude': 40.5888,
     'longitude': 111.6380,
@@ -57,7 +57,7 @@ params23_24 = {
 
 3.  **Make API Request and Convert to JSON**:
 
-```{python}
+```
 response23_24 = requests.get(base_url + endpoint, params=params23_24)
 data23_24 = response23_24.json()
 OM_23_24 = data23_24['daily']
@@ -66,7 +66,7 @@ df23_24 = pd.DataFrame(OM_23_24)
 
 4.  **Repeat for 2024-2025**:
 
-```{python}
+```
 params24_25 = {
     'latitude': 40.5888,
     'longitude': 111.6380,
@@ -91,7 +91,7 @@ df24_25 = pd.DataFrame(OM_24_25)
 
 5.  **Combine DataFrames and Create 3-Day Snowfall Prediction**:
 
-```{python}
+```
 df23_25 = pd.concat([df23_24, df24_25], ignore_index=True)
 df23_25['3day_prediction'] = df23_25['snowfall_sum'].shift(-3)
 df23_25 = df23_25.iloc[:-3,:]  # Remove last 3 rows with NaN values
@@ -99,7 +99,7 @@ df23_25 = df23_25.iloc[:-3,:]  # Remove last 3 rows with NaN values
 
 6.  **Save Combined Data to CSV**:
 
-```{python}
+```
 df23_25.to_csv('SnowFall23_25.csv', index=False)
 ```
 
@@ -109,11 +109,11 @@ To understand the data better, I performed some exploratory data analysis (EDA).
 
 1.  **Snowfall by Month**
 
-![Snowfall by Month](https://github.com/BraydenHumpherys/Data-Grill-Blog/blob/main/assets/img/total_snowfall_by_month.png)
+![Snowfall by Month]({{site.url}}/{{site.baseurl}}/assets/img/total_snowfall_by_month.png)
 
 2.  **Snowfall by Minimum Temperature**
 
-![Snowfall by Min Temp](https://github.com/BraydenHumpherys/Data-Grill-Blog/blob/main/assets/img/snowfall_vs_min_temperature.png)
+![Snowfall by Min Temp]({{site.url}}/{{site.baseurl}}/assets/img/snowfall_vs_min_temperature.png)
 
 ### Dataset Summary
 
