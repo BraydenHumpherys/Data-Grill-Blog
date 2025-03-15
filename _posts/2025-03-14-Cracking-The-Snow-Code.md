@@ -13,7 +13,7 @@ By Brayden Humpherys
 
 As a lifelong skier, I've always been fascinated by the weather patterns that dictate the quality of ski days. Planning a perfect ski trip can be challenging without knowing how much snow to expect. This project aims to predict the amount of snowfall at Alta, UT, three days in advance using historical weather data. By leveraging data science, we can make more informed decisions and enhance our skiing experiences.
 
-![Me Skiing](%7B%7Bsite.url%7D%7D/%7B%7Bsite.baseurl%7D%7D/assets/img/smote-bar-graph.png)
+![Me Skiing](https://github.com/BraydenHumpherys/Data-Grill-Blog/blob/main/assets/img/me_skiing.png)
 
 ### Motivation
 
@@ -109,11 +109,11 @@ To understand the data better, I performed some exploratory data analysis (EDA).
 
 1.  **Snowfall by Month**
 
-![Snowfall by Month]()
+![Snowfall by Month](https://github.com/BraydenHumpherys/Data-Grill-Blog/blob/main/assets/img/total_snowfall_by_month.png)
 
 2.  **Snowfall by Minimum Temperature**
 
-![Snowfall by Min Temp]()
+![Snowfall by Min Temp](https://github.com/BraydenHumpherys/Data-Grill-Blog/blob/main/assets/img/snowfall_vs_min_temperature.png)
 
 ### Dataset Summary
 
