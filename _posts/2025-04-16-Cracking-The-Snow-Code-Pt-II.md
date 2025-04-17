@@ -27,9 +27,7 @@ One of the most reliable takeaways was seasonal. By grouping snowfall totals by 
 
 This isn’t groundbreaking meteorology, nor does it really answer our data science question, but it’s a good reminder that February remains a prime month for fresh powder at Alta. December and January also show high totals, while March tends to taper off.
 
-![](images/total_snowfall_by_month.png){width="429"}
-
-![Snowfall by month](%7B%7Bsite.url%7D%7D/%7B%7Bsite.baseurl%7D%7D/assets/img/total_snowfall_by_month.png)
+![Snowfall by month]({{site.url}}/{{site.baseurl}}/assets/img/total_snowfall_by_month.png)
 
 ## Explore the Data Yourself
 
@@ -55,9 +53,7 @@ While this project revealed that February is the snowiest month, it also showed 
 
 Even temperature, which initially looked promising, didn’t hold up under closer inspection—likely due to unit inconsistencies I’m still investigating (I can't figure out why the units for temperature are so whack).
 
-![](images/snowcracked.png){width="293"}
-
-![Cracked Ice](%7B%7Bsite.url%7D%7D/%7B%7Bsite.baseurl%7D%7D/assets/img/total_snowfall_by_month.png)
+![Cracked Ice]({{site.url}}/{{site.baseurl}}/assets/img/total_snowfall_by_month.png)
 
 These findings highlight a key takeaway: simple correlations aren’t enough. Predicting snowfall will likely require more features and machine learning models that can capture complex and nonlinear relationships.
 
