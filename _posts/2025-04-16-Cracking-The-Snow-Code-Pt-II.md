@@ -9,7 +9,7 @@ image: /assets/img/skislash.png
 
 ## The Research Question:
 
-nowstorms in Utah’s mountains might feel random—but is there a method behind the mayhem? This project set out to answer a clear and compelling data science question:
+Snowstorms in Utah’s mountains might feel random—but is there a method behind the mayhem? This project set out to answer a clear and compelling data science question:
 
 💡 **If given the weather information today, can we predict the amount of snow Alta will receive in 3 days?**
 
@@ -21,7 +21,7 @@ One of the most reliable takeaways was seasonal. By grouping snowfall totals by 
 
 **February had the highest total snowfall across both the 2023–24 and 2024–25 seasons.**
 
-This isn’t groundbreaking meteorology, nor does it really answer our data science question, but it’s a good reminder that February remains a prime month for fresh powder at Alta. December and January also show high totals, while March tends to taper off. ![Snowfall by month](%7B%7Bsite.url%7D%7D/%7B%7Bsite.baseurl%7D%7D/assets/img/total_snowfall_by_month.png)
+This isn’t groundbreaking meteorology, nor does it really answer our data science question, but it’s a good reminder that February remains a prime month for fresh powder at Alta. December and January also show high totals, while March tends to taper off. ![Snowfall by month]({{site.url}}/{{site.baseurl}}/assets/img/total_snowfall_by_month.png)
 
 ## Explore the Data Yourself
 
