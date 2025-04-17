@@ -13,7 +13,7 @@ By Brayden Humpherys
 
 As a lifelong skier, I've always been fascinated by the weather patterns that dictate the quality of ski days. Planning a perfect ski trip can be challenging without knowing how much snow to expect. This creates the burning question: If given the weather information today, can we predict the amount of snow Alta will receive in 3 days? This project aims to predict the amount of snowfall at Alta, UT, three days in advance using historical weather data factors such as min/max temperatures, wind speed, wind direction, radiation, and weather code. By leveraging data science, we can make more informed decisions and enhance our skiing experiences.
 
-![Me Skiing]({{site.url}}/{{site.baseurl}}/assets/img/me_skiing.png)
+![Me Skiing](%7B%7Bsite.url%7D%7D/%7B%7Bsite.baseurl%7D%7D/assets/img/me_skiing.png)
 
 ### Motivation
 
@@ -109,13 +109,13 @@ To understand the data better, I performed some exploratory data analysis (EDA).
 
 1.  **Which Month Should You Plan Your Next Ski Trip?**
 
-![Snowfall by Month]({{site.url}}/{{site.baseurl}}/assets/img/total_snowfall_by_month.png)
+![Snowfall by Month](%7B%7Bsite.url%7D%7D/%7B%7Bsite.baseurl%7D%7D/assets/img/total_snowfall_by_month.png)
 
 From this visualization, we can see that February tends to have the most snowfall with almost 50 inches of snowfall in the month. This is consistent with my personal skiing experience, as some of my best powder days have been in February! Early in the season such as the month of December tends to have less snowfall. Because most ski trips require planning ahead, it's hard to plan ski trips on powder days. But planning one in February might give you the best chance at seeing some fresh powder.
 
 2.  Is Snowfall Related to Minimum Temperature?
 
-![Snowfall by Min Temp]({{site.url}}/{{site.baseurl}}/assets/img/snowfall_vs_min_temperature.png)
+![Snowfall by Min Temp](%7B%7Bsite.url%7D%7D/%7B%7Bsite.baseurl%7D%7D/assets/img/snowfall_vs_min_temperature.png)
 
 The temperature values look pretty low don't they? I'm actually a little skeptical of those values. I've skied Alta several times and I don't think I've ever seen temperature even close to those values. I've double checked my parameters and units, and still can not understand those extremely low temperatures. Disregarding the very unusual temperatures, the graph above shows almost no correlation between minimum temperature and snowfall. This may makes sense, because during the winter, it is almost always cold enough to snow at any minute. It just depends on other factors. Although, I have heard from unreliable sources (strangers on a ski lift) that winter storms actually bring slightly warmer temperatures.
 
